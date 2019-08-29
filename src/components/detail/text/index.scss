@@ -1,0 +1,28 @@
+.warp{
+    
+    background-color: #fff;
+    .textWarp{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;  
+        font-size: 0.16rem; 
+        .sub{
+            margin: 0.1rem 0 0.1rem 0 ;
+        }
+        .price{
+            margin:  0 0 0 0.1rem ;
+            color: #f40;
+        }
+        .sales{
+            margin:  0 0.1rem 0 0 ;
+            .highlight{
+                color: #f40;
+            }
+        }  
+    }
+    
+    .title{
+       padding: 0.1rem;
+       font-size: 0.16rem; 
+    }
+}

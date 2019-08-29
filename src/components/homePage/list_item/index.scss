@@ -1,0 +1,36 @@
+.list-item{
+    float: left;
+    width: 50%;
+    height: 2.45rem;
+    margin: 0.05rem 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+        .item-lk{
+            display: block;
+            height: 100%;
+            padding: .05rem .05rem 0;
+            box-sizing:border-box ;
+            .imgWarp{            
+                width: 100%;
+            }
+            .textWarp{
+                height: 0.6rem;
+                .subtitle{
+                    overflow: hidden;
+                    height: .3rem;
+                    font-size: .14rem;
+                    line-height: 0.15rem;
+                    font-weight: bold;
+                }
+                .price{
+                    height: .25rem;
+                    line-height: .3rem;
+                    font-size: .14rem;
+                    color: #f40;
+                }
+                
+            }
+        }
+       
+}
